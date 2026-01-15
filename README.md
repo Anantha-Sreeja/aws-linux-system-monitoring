@@ -132,3 +132,20 @@ This project demonstrates hands-on Systems Engineering skills, including cloud i
 Sreeja Anantha  
 Systems Engineering | Cloud & Linux
 
+## 📸 Screenshots (Proof of Work)
+
+### EC2 Instance Running
+![EC2 Running](screenshots/ec2-running.png)
+
+### System Monitoring – htop
+![htop](screenshots/htop.png)
+
+### Disk Usage
+![df](screenshots/df-h.png)
+
+### Disk I/O Statistics
+![iostat](screenshots/iostat.png)
+
+### CPU Stress Test
+![stress](screenshots/stress.png)
+
