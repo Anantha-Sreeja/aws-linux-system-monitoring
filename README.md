@@ -135,17 +135,16 @@ Systems Engineering | Cloud & Linux
 ## 📸 Screenshots (Proof of Work)
 
 ### EC2 Instance Running
-![EC2 Running](screenshots/ec2-running.png)
+![EC2 Instance](./screenshots/ec2_instance_running.png)
 
-### System Monitoring – htop
-![htop](screenshots/htop.png)
+### htop – System Monitoring
+![htop](./screenshots/htop_monitoring.png)
 
-### Disk Usage
-![df](screenshots/df-h.png)
+### Disk Usage (df -h)
+![Disk Usage](./screenshots/disk_usage_df.png)
 
-### Disk I/O Statistics
-![iostat](screenshots/iostat.png)
+### I/O Statistics (iostat)
+![I/O Stats](./screenshots/iostat_stats.png)
 
 ### CPU Stress Test
-![stress](screenshots/stress.png)
-
+![CPU Stress](./screenshots/cpu_stress_test.png)
