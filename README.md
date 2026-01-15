@@ -83,6 +83,29 @@ Observed behavior:
 
 ---
 
+## Commands Used
+
+The following Linux commands were executed on an AWS EC2 (Ubuntu 22.04) instance
+to monitor system performance and validate stability under load.
+
+```bash
+sudo apt update
+sudo apt install htop sysstat stress -y
+
+# Real-time CPU & memory monitoring
+htop
+
+# Disk I/O statistics
+iostat
+
+# Disk usage
+df -h
+
+# CPU stress testing
+stress --cpu 2 --timeout 60
+
+---
+
 ## Results
 - CPU idle maintained above 98% during normal operation
 - Disk utilization remained under 35%
@@ -106,4 +129,6 @@ This project demonstrates hands-on Systems Engineering skills, including cloud i
 ---
 
 ## Author
-Systems Engineering Project
+Sreeja Anantha  
+Systems Engineering | Cloud & Linux
+
